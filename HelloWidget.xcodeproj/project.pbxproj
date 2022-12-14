@@ -13,7 +13,36 @@
 		8C8D2EC3294A39C8003F8A7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8D2EC2294A39C8003F8A7A /* Preview Assets.xcassets */; };
 		8C8D2EC5294A39C8003F8A7A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D2EC4294A39C8003F8A7A /* Persistence.swift */; };
 		8C8D2EC8294A39C8003F8A7A /* HelloWidget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D2EC6294A39C8003F8A7A /* HelloWidget.xcdatamodeld */; };
+		8C8D2ED5294A3D0D003F8A7A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8D2ED4294A3D0D003F8A7A /* WidgetKit.framework */; };
+		8C8D2ED7294A3D0D003F8A7A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8D2ED6294A3D0D003F8A7A /* SwiftUI.framework */; };
+		8C8D2EDA294A3D0D003F8A7A /* Hello_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D2ED9294A3D0D003F8A7A /* Hello_Widget.swift */; };
+		8C8D2EDC294A3D14003F8A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8D2EDB294A3D14003F8A7A /* Assets.xcassets */; };
+		8C8D2EE0294A3D14003F8A7A /* Hello_WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8C8D2ED2294A3D0D003F8A7A /* Hello_WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C8D2EDE294A3D14003F8A7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C8D2EB0294A39C5003F8A7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8D2ED1294A3D0D003F8A7A;
+			remoteInfo = Hello_WidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C8D2EE4294A3D14003F8A7A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8C8D2EE0294A3D14003F8A7A /* Hello_WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8C8D2EB8294A39C5003F8A7A /* HelloWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,6 +52,12 @@
 		8C8D2EC2294A39C8003F8A7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C8D2EC4294A39C8003F8A7A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8C8D2EC7294A39C8003F8A7A /* HelloWidget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloWidget.xcdatamodel; sourceTree = "<group>"; };
+		8C8D2ED2294A3D0D003F8A7A /* Hello_WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Hello_WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8D2ED4294A3D0D003F8A7A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8C8D2ED6294A3D0D003F8A7A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		8C8D2ED9294A3D0D003F8A7A /* Hello_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_Widget.swift; sourceTree = "<group>"; };
+		8C8D2EDB294A3D14003F8A7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C8D2EDD294A3D14003F8A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +68,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C8D2ECF294A3D0D003F8A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8D2ED7294A3D0D003F8A7A /* SwiftUI.framework in Frameworks */,
+				8C8D2ED5294A3D0D003F8A7A /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -40,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				8C8D2EBA294A39C5003F8A7A /* HelloWidget */,
+				8C8D2ED8294A3D0D003F8A7A /* Hello_Widget */,
+				8C8D2ED3294A3D0D003F8A7A /* Frameworks */,
 				8C8D2EB9294A39C5003F8A7A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				8C8D2EB8294A39C5003F8A7A /* HelloWidget.app */,
+				8C8D2ED2294A3D0D003F8A7A /* Hello_WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +120,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8C8D2ED3294A3D0D003F8A7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C8D2ED4294A3D0D003F8A7A /* WidgetKit.framework */,
+				8C8D2ED6294A3D0D003F8A7A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C8D2ED8294A3D0D003F8A7A /* Hello_Widget */ = {
+			isa = PBXGroup;
+			children = (
+				8C8D2ED9294A3D0D003F8A7A /* Hello_Widget.swift */,
+				8C8D2EDB294A3D14003F8A7A /* Assets.xcassets */,
+				8C8D2EDD294A3D14003F8A7A /* Info.plist */,
+			);
+			path = Hello_Widget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,15 +149,34 @@
 				8C8D2EB4294A39C5003F8A7A /* Sources */,
 				8C8D2EB5294A39C5003F8A7A /* Frameworks */,
 				8C8D2EB6294A39C5003F8A7A /* Resources */,
+				8C8D2EE4294A3D14003F8A7A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8C8D2EDF294A3D14003F8A7A /* PBXTargetDependency */,
 			);
 			name = HelloWidget;
 			productName = HelloWidget;
 			productReference = 8C8D2EB8294A39C5003F8A7A /* HelloWidget.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8C8D2ED1294A3D0D003F8A7A /* Hello_WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8D2EE1294A3D14003F8A7A /* Build configuration list for PBXNativeTarget "Hello_WidgetExtension" */;
+			buildPhases = (
+				8C8D2ECE294A3D0D003F8A7A /* Sources */,
+				8C8D2ECF294A3D0D003F8A7A /* Frameworks */,
+				8C8D2ED0294A3D0D003F8A7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hello_WidgetExtension;
+			productName = Hello_WidgetExtension;
+			productReference = 8C8D2ED2294A3D0D003F8A7A /* Hello_WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -104,6 +189,9 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					8C8D2EB7294A39C5003F8A7A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8C8D2ED1294A3D0D003F8A7A = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -122,6 +210,7 @@
 			projectRoot = "";
 			targets = (
 				8C8D2EB7294A39C5003F8A7A /* HelloWidget */,
+				8C8D2ED1294A3D0D003F8A7A /* Hello_WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +222,14 @@
 			files = (
 				8C8D2EC3294A39C8003F8A7A /* Preview Assets.xcassets in Resources */,
 				8C8D2EC0294A39C8003F8A7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8D2ED0294A3D0D003F8A7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8D2EDC294A3D14003F8A7A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +247,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C8D2ECE294A3D0D003F8A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8D2EDA294A3D0D003F8A7A /* Hello_Widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C8D2EDF294A3D14003F8A7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C8D2ED1294A3D0D003F8A7A /* Hello_WidgetExtension */;
+			targetProxy = 8C8D2EDE294A3D14003F8A7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8C8D2EC9294A39C8003F8A7A /* Debug */ = {
@@ -272,6 +385,7 @@
 		8C8D2ECC294A39C8003F8A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +415,7 @@
 		8C8D2ECD294A39C8003F8A7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -327,6 +442,60 @@
 			};
 			name = Release;
 		};
+		8C8D2EE2294A3D14003F8A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y3RP8443D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hello_Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Hello_Widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edivriLearnSwift.HelloWidget.Hello-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C8D2EE3294A3D14003F8A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y3RP8443D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hello_Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Hello_Widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edivriLearnSwift.HelloWidget.Hello-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -344,6 +513,15 @@
 			buildConfigurations = (
 				8C8D2ECC294A39C8003F8A7A /* Debug */,
 				8C8D2ECD294A39C8003F8A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8D2EE1294A3D14003F8A7A /* Build configuration list for PBXNativeTarget "Hello_WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8D2EE2294A3D14003F8A7A /* Debug */,
+				8C8D2EE3294A3D14003F8A7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
