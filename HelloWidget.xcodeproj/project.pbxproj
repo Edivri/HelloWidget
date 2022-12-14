@@ -18,6 +18,9 @@
 		8C8D2EDA294A3D0D003F8A7A /* Hello_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D2ED9294A3D0D003F8A7A /* Hello_Widget.swift */; };
 		8C8D2EDC294A3D14003F8A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8D2EDB294A3D14003F8A7A /* Assets.xcassets */; };
 		8C8D2EE0294A3D14003F8A7A /* Hello_WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8C8D2ED2294A3D0D003F8A7A /* Hello_WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C8D2EE8294A4227003F8A7A /* HelloWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D2EE7294A4227003F8A7A /* HelloWidgetEntry.swift */; };
+		8C8D2EEA294A457B003F8A7A /* HelloWidgetTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D2EE9294A457B003F8A7A /* HelloWidgetTimelineProvider.swift */; };
+		8C8D2EEC294A4B9E003F8A7A /* HelloWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D2EEB294A4B9E003F8A7A /* HelloWidgetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		8C8D2ED9294A3D0D003F8A7A /* Hello_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_Widget.swift; sourceTree = "<group>"; };
 		8C8D2EDB294A3D14003F8A7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C8D2EDD294A3D14003F8A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8D2EE7294A4227003F8A7A /* HelloWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWidgetEntry.swift; sourceTree = "<group>"; };
+		8C8D2EE9294A457B003F8A7A /* HelloWidgetTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWidgetTimelineProvider.swift; sourceTree = "<group>"; };
+		8C8D2EEB294A4B9E003F8A7A /* HelloWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWidgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,9 @@
 		8C8D2ED8294A3D0D003F8A7A /* Hello_Widget */ = {
 			isa = PBXGroup;
 			children = (
+				8C8D2EE7294A4227003F8A7A /* HelloWidgetEntry.swift */,
+				8C8D2EE9294A457B003F8A7A /* HelloWidgetTimelineProvider.swift */,
+				8C8D2EEB294A4B9E003F8A7A /* HelloWidgetView.swift */,
 				8C8D2ED9294A3D0D003F8A7A /* Hello_Widget.swift */,
 				8C8D2EDB294A3D14003F8A7A /* Assets.xcassets */,
 				8C8D2EDD294A3D14003F8A7A /* Info.plist */,
@@ -251,7 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C8D2EEA294A457B003F8A7A /* HelloWidgetTimelineProvider.swift in Sources */,
 				8C8D2EDA294A3D0D003F8A7A /* Hello_Widget.swift in Sources */,
+				8C8D2EE8294A4227003F8A7A /* HelloWidgetEntry.swift in Sources */,
+				8C8D2EEC294A4B9E003F8A7A /* HelloWidgetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
