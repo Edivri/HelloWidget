@@ -7,7 +7,7 @@
 
   </tr>
   <tr>
-    <td><img src="assets/widget.png" width=270 height=480 ></td>
+    <td><img src="assets/widget1.png" width=270 height=480 ></td>
     <td><img src="assets/widget2.png" width=270 height=480 ></td>
 
 </td>
